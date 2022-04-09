@@ -1,0 +1,39 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#root {
+    background-color: black;
+    font-family: monospace, 'Courier New', Courier;
+}
+
+span.bg-primary {
+    background-color: cornflowerblue !important;
+    border: 1px solid white;
+    color: white;
+}
+
+.input,.output {
+    background-color: #DCDCDC;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+}
+
+@media (orientation: portrait) {
+    .input,.output {
+        width: 80vw;
+        height: 30vh;
+    }
+}
+@media (orientation: landscape) {
+    .input,.output {
+        width: 40vw;
+        height: 50vh;
+    }
+}
