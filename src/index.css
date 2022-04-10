@@ -33,7 +33,7 @@ span.bg-primary {
 }
 @media (orientation: landscape) {
     .input,.output {
-        width: 40vw;
+        width: 30vw;
         height: 50vh;
     }
 }
