@@ -1,6 +1,7 @@
 import React from 'react';
 import Badge from 'react-bootstrap/Badge';
 import {marked} from 'marked';
+import Footer from './Footer';
 
 export default class App extends React.Component {
     constructor(props) {
@@ -77,6 +78,7 @@ export default class App extends React.Component {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         );
     }
