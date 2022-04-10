@@ -11,10 +11,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// const footer = document.getElementById('footer');
-// footer.render(
-//   <React.StrictMode>
-//     <Footer />
-//   </React.StrictMode>
-// );
+document.body.style = 'background: black;'

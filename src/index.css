@@ -33,7 +33,7 @@ span.bg-primary {
     .input,
     .output {
         width: 80vw;
-        height: 30vh;
+        height: 32vh;
     }
 }
 
@@ -47,13 +47,13 @@ span.bg-primary {
 }
 
 footer {
-    height: 5vh;
+    height: 3vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 1rem;
     background-color: black;
+    opacity: 0.75;
     color: white;
 }
 
@@ -90,7 +90,8 @@ footer>p>a>img {
 }
 
 .socialLogo {
-    max-height: 1.5rem;
+    max-height: 1.25rem;
+    padding: 0 0.25rem;
     transition: transform 0.5s ease-in-out;
 }
 
