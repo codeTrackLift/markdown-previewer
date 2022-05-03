@@ -50,6 +50,7 @@ export default class App extends React.Component {
                                     onChange={e => {
                                         this.updateMarkdown(e.target.value);
                                     }}
+                                    style={{resize:'none'}}
                                   
                                 >
                                     {' '}
