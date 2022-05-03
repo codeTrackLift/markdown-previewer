@@ -21,7 +21,7 @@ export default class Footer extends React.Component {
                     </a>
                 </p>
                 <div>
-                    <a href="https://github.com/codeTrackLift/markdown-previewer" target="_blank" rel='noreferrer'>
+                    <a href="https://github.com/codeTrackLift/markdown-previewer#readme`" target="_blank" rel='noreferrer'>
                         <img className="socialLogo" src="https://codetracklift.github.io/codeTrackLift/logos/GitHub-Mark-Light-64px.png" alt="GitHub Icon"/>
                     </a>
                     <a href="https://twitter.com/codetracklift" target="_blank" rel='noreferrer'>
@@ -35,4 +35,3 @@ export default class Footer extends React.Component {
         )
     }
 }
-
